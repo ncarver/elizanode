@@ -1,20 +1,20 @@
-elizabot
-========
+elizanode
+=========
 
-This is a node package of the elizabot.js v.1.1 - ELIZA JS library (N.Landsteiner 2005)
+This is a node package of the elizaNode.js v.1.1 - ELIZA JS library (N.Landsteiner 2005)
   Eliza is a mock Rogerian psychotherapist.
   Original program by Joseph Weizenbaum in MAD-SLIP for "Project MAC" at MIT.
 
 ## interface
-         new ElizaBot( <random-choice-disable-flag> )
-         ElizaBot.prototype.transform( <inputstring> )
-         ElizaBot.prototype.getInitial()
-         ElizaBot.prototype.getFinal()
-         ElizaBot.prototype.reset()
+         new ElizaNode( <random-choice-disable-flag> )
+         ElizaNode.prototype.transform( <inputstring> )
+         ElizaNode.prototype.getInitial()
+         ElizaNode.prototype.getFinal()
+         ElizaNode.prototype.reset()
 
 ## usage
-		 var ElizaBot = require('elizabot')
-		 var eliza = new ElizaBot();
+		 var ElizaNode = require('elizanode')
+		 var eliza = new ElizaNode();
          var initial = eliza.getInitial();
          var reply = eliza.transform(inputstring);
          if (eliza.quit) {
@@ -33,10 +33,10 @@ This is a node package of the elizabot.js v.1.1 - ELIZA JS library (N.Landsteine
 
          // to reproduce the example conversation given by J. Weizenbaum
          // initialize with the optional random-choice-disable flag
-         var originalEliza = new ElizaBot(true);
+         var originalEliza = new ElizaNode(true);
 
 ## installation
-npm install elizabot --save
+npm install elizanode --save
 
 # contributing
 See [Contributing](CONTRIBUTING.md)

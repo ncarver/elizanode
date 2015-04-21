@@ -1,7 +1,7 @@
 {
     "name": "elizabot",
     "version": "0.1.0",
-    "description": "Node implementation of Eliza to use as a package, like for a hardware bot",
+    "description": "Node implementation of ElizaBot to use as a package, like for a hardware bot",
     "main": "elizabot.js",
     "scripts": {
         "test": "jasmine"
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/ncarver/node-elizabot.git"
+        "url": "git://github.com/ncarver/elizanode.git"
     },
     "keywords": [
         "eliza",
@@ -25,6 +25,6 @@
         "url": "http://opensource.org/licenses/GPL-2.0"
     }],
     "bugs": {
-        "url": "https://github.com/ncarver/elizabot/issues"
+        "url": "https://github.com/ncarver/elizanode/issues"
     }
 }

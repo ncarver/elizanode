@@ -1,8 +1,8 @@
 ElizaData = require('../elizadata');
-ElizaBot = require('../elizabot');
+ElizaNode = require('../elizanode');
 
 describe("Confirm non-random eliza responses", function() {
-  eliza = new ElizaBot();
+  eliza = new ElizaNode();
   elizaData = new ElizaData();
 
   it("should start with a known message", function() {
@@ -21,7 +21,7 @@ describe("Confirm non-random eliza responses", function() {
 });
 
 describe("Hold a known conversation", function() {
-  eliza = new ElizaBot(true);
+  eliza = new ElizaNode(true);
 
   conversation = [];
   conversation.push("Men are all alike.");
