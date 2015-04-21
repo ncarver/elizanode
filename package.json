@@ -1,0 +1,30 @@
+{
+    "name": "elizabot",
+    "version": "0.1.0",
+    "description": "Node implementation of Eliza to use as a package, like for a hardware bot",
+    "main": "elizabot.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "author": "Nathan Carver",
+    "devDependencies": {
+        "jasmine": "^2.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ncarver/elizabot.git"
+    },
+    "keywords": [
+        "eliza",
+        "Rogerian",
+        "psychotherapist"
+    ],
+    "author": "Nathan Carver <nathan.carver@gmail.com> (http://github.com/ncarver)",
+    "licenses": [{
+        "type": "GPL-2",
+        "url": "http://opensource.org/licenses/GPL-2.0"
+    }],
+    "bugs": {
+        "url": "https://github.com/ncarver/elizabot/issues"
+    }
+}
