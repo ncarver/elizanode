@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/ncarver/elizabot.git"
+        "url": "git://github.com/ncarver/node-elizabot.git"
     },
     "keywords": [
         "eliza",
