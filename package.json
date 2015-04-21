@@ -1,8 +1,8 @@
 {
-    "name": "elizabot",
+    "name": "elizanode",
     "version": "0.1.0",
     "description": "Node implementation of ElizaBot to use as a package, like for a hardware bot",
-    "main": "elizabot.js",
+    "main": "elizanode.js",
     "scripts": {
         "test": "jasmine"
     },
